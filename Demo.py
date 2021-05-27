@@ -1,20 +1,20 @@
 # 0. Install Comet ML
 
-pip install comet_ml
+#pip install comet_ml
 
 # point comet_ml SDK to 161.92.208.196 installation
-import os
-os.environ["COMET_URL_OVERRIDE"] = "http://161.92.208.196/clientlib/"
+#import os
+#os.environ["COMET_URL_OVERRIDE"] = "http://161.92.208.196/clientlib/"
 
 # import comet_ml at the top of your file
-from comet_ml import Experiment
+#from comet_ml import Experiment
 
 # Create an experiment with your api key
-experiment = Experiment(
-    api_key="EoDB6AiB8RotJyu14ahtE2LcN",
-    project_name="digit-recognizer",
-    workspace="reevu",
-)
+#experiment = Experiment(
+#    api_key="EoDB6AiB8RotJyu14ahtE2LcN",
+#    project_name="digit-recognizer",
+#    workspace="reevu",
+#)
 
 # 1. Install Dependencies
 import subprocess
